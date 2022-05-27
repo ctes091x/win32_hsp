@@ -1,0 +1,5 @@
+#uselib "user32.dll"
+#func global MessageBoxA "MessageBoxA" sptr, sptr, sptr, sptr
+
+MessageBoxA hwnd, "Yeah!", "User32API",0x0005
+mes stat
