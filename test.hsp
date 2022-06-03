@@ -45,7 +45,7 @@
 #define IDTRYAGAIN				10
 #define IDCONTINUE				11
 
-MessageBoxA hwnd, "Yeah!", "User32API",MB_OKCANCEL
+MessageBoxA hwnd, "Yeah!", "User32API",MB_OKCANCEL or MB_ICONEXCLAMATION
 mes stat
 wait 50
 end
