@@ -46,6 +46,7 @@
 #define IDCONTINUE				11
 
 MessageBoxA hwnd, "Yeah!", "User32API",MB_OKCANCEL or MB_ICONEXCLAMATION
-mes stat
+if stat==IDCANCEL:mes "Canceled"
+if stat==IDOK:mes "OK!"
 wait 50
 end
